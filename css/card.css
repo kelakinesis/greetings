@@ -14,7 +14,7 @@ h2 {
   }
   .text-container {
     padding: 4rem 1rem 2rem 1rem;
-    max-height: 400px;
+    max-height: 500px;
     overflow: hidden;
     word-wrap: break-word;
   }
@@ -24,7 +24,7 @@ h2 {
   }
   
   img {
-    height: 400px;
+    height: 500px;
     width: 100%;
     margin: 0;
     float: right;
