@@ -1,8 +1,17 @@
+body {
+  margin: auto;
+  padding: 4rem;
+  width: 75%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: black;
+  background-color: #fcefef;
+}
+
 h1, h2, h3 {
   font-family: 'Roboto Slab', serif;
   padding-bottom: 2rem;
 }
-
 h2 {
     text-align: center;
     font-size: 3.5rem;
@@ -11,7 +20,7 @@ h3 {
   font-size: 3rem;
 }
 p {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
   
 #card-container {
@@ -21,7 +30,7 @@ p {
   background: 
     linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
     url("../img/cherry-blossoms-unsplash-gaspanik.jpeg") white;
-  width: 400px;
+  min-width: 300px;
   height: 600px;
   object-fit: contain;
   border: 1px solid white;
@@ -29,11 +38,12 @@ p {
 }
 
 #text-container {
-  padding: 5rem 3rem 3rem 3rem;
+  padding: 4rem 3rem 3rem 3rem;
   max-height: 600px;
   overflow: hidden;
   word-wrap: break-word;
 }
+
 #card-from {
   float: right;
   padding-right: 1rem;
