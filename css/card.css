@@ -23,8 +23,8 @@ p {
     url("../img/cherry-blossoms-unsplash-gaspanik.jpeg") white;
   width: 400px;
   height: 600px;
-  background-size: contain;
-  /* border: 1px solid white; */
+  object-fit: contain;
+  border: 1px solid white;
   box-shadow: 3px 3px 5px #fce4d8;
 }
 
