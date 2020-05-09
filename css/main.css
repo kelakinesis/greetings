@@ -1,39 +1,16 @@
 body {
-    margin: auto;
-    padding: 4rem;
-    width: 75%;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    background-color: #fcefef;
-  }
-  
- h1 {
-    text-align: center;
-    font-size: 3rem;
-  }
-  
-  .form-container {
-    margin: 2rem 7%;
-  
-  }
-  
-  .form-container .column {
-    padding: 1rem;
-  }
-  
-  form, input, textarea, select {
-    width: 100%;
-    margin: 1rem 0;
-  
-  }
-  
-  input:focus, textarea:focus, select:focus {
-    border-color: darkgreen !important;
-  }
-  
-  
-  button:hover {
-    background-color: darkred;
-    color: white;
-    border: white;
-  } */
+  margin: auto;
+  padding: 4rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #63768d;
+  background-color: #36213e;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto Slab', serif;
+  padding-bottom: 2rem;
+}
