@@ -18,16 +18,18 @@ p {
   margin: auto;
   display: flex;
   justify-content: center;
-  background: url("../img/cherry-blossoms-unsplash-gaspanik.jpeg") white;
+  background: 
+    linear-gradient(0deg, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
+    url("../img/cherry-blossoms-unsplash-gaspanik.jpeg") white;
   width: 400px;
   height: 600px;
-  object-fit: cover;
-  border: 1px solid white;
-  box-shadow: 3px 3px 5px #172a3a;
+  background-size: contain;
+  /* border: 1px solid white; */
+  box-shadow: 3px 3px 5px #fce4d8;
 }
 
 #text-container {
-  padding: 3rem;
+  padding: 5rem 3rem 3rem 3rem;
   max-height: 600px;
   overflow: hidden;
   word-wrap: break-word;
